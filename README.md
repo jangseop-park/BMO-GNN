@@ -163,7 +163,23 @@ This will load the best model, re-mesh with the chosen parameters, and then outp
 - **Hardware Requirements:**  
   - Training large models requires GPUs with substantial memory (e.g., NVIDIA RTX 3090).
   - CPU parallelism is used (e.g., Pool(64)), requiring multiple cores.
- 
+
+## **Citations:**  
+  If you find this code useful, please cite our paper:
+  
+  ```bibtex
+  @article{park2024bmo,
+  title={BMO-GNN: Bayesian mesh optimization for graph neural networks to enhance engineering performance prediction},
+  author={Park, Jangseop and Kang, Namwoo},
+  journal={Journal of Computational Design and Engineering},
+  volume={11},
+  number={6},
+  pages={260--271},
+  year={2024},
+  publisher={Oxford University Press}
+}
+```
+
 ## Contact
 
 For questions, support, or collaboration inquiries, please reach out to:
