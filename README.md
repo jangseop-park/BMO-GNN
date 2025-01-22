@@ -65,13 +65,12 @@ Make sure you have libraries like spektral, pyvista, pyacvd, bayes_opt, tensorfl
 ### 3. Data Preprocessing
 #### 3.1. Mesh → Graph Conversion
 - Script: `preprocess.py`
-
-Starting from STL or VTK meshes, we do:
+- Starting from STL or VTK meshes, we do:
   - Subdivision (num_subdivide)
   - Clustering (num_cluster)
   - Convert to graph (nodes, edges, adjacency matrix)
 
-Example:
+**Example:**
 ```bash
 python preprocess.py \
     --num_subdivide 3 \
@@ -93,7 +92,7 @@ The functions `minmax_scaler` and `split_dataset` are used to normalize features
   - Train/evaluate the GNN
   - Update BO with the new results
 
-Example command:
+**Example command:**
 ```bash
 python run_model.py \
     --mode train \
