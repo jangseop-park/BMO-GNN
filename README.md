@@ -124,7 +124,8 @@ Key steps in `run_model.py`:
 - File: `models.py`
 
 Contains Spektral-based GNN definitions (GCNConv, GCSConv, MinCutPool, etc.).
-Example:
+
+**Example:**
 ```bash
 def gcs3(N, F, n_out, params, name):
     H_in = Input(shape=(N, F), batch_size=1)
