@@ -45,7 +45,7 @@ An example directory structure is shown below. Adjust to match your setup:
   - Label files with mass, rim stiffness, disk stiffness, etc.  
   - Original STL or OBJ 3D CAD files (optional)  
 
-Provide a [Kaggle or Drive link](#) if the dataset is publicly available.
+Provide a [Kaggle link](https://www.kaggle.com/datasets/jangseop/bmo-gnn-dataset) if the dataset is publicly available.
 
 ## Getting Started
 
